@@ -1,0 +1,137 @@
+@charset "UTF-8";
+#root {
+  background-color: #333333;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Arial","微軟正黑體";
+}
+
+a {
+  text-decoration: none;
+  outline: none;
+  color: black;
+}
+
+nav {
+  background-color: #AAAAAA;
+}
+
+nav ul {
+  list-style-type: none;
+  display: flex;
+  justify-content: flex-end;
+  margin-right: 3rem;
+}
+
+nav ul li {
+  padding: 0.5rem 1rem;
+}
+
+nav ul li a {
+  font-size: 1.5rem;
+  color: white;
+  font-weight: bold;
+}
+
+.search {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 3rem 0;
+  overflow: hidden;
+  max-height: 2.7rem;
+}
+
+.search input {
+  font-size: 1.5rem;
+  padding: 0.5rem;
+  outline: none;
+  border: none;
+  background-color: #EEEEEE;
+  height: 100%;
+  display: block;
+}
+
+.search button {
+  font-size: 1.5rem;
+  padding: 0.5rem;
+  background-color: #BBBBBB;
+  cursor: pointer;
+  outline: none;
+  border: none;
+  font-weight: bold;
+}
+
+footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 1rem;
+}
+
+footer p {
+  color: white;
+}
+
+.pictures {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  padding-bottom: 2rem;
+}
+
+.pictures .picture {
+  max-width: 300px;
+  max-height: 300px;
+  flex: 1 1 300px;
+  margin: 2rem 1rem;
+}
+
+.pictures .picture p {
+  color: white;
+}
+
+.pictures .picture .imgContainer {
+  width: 300px;
+  height: 300px;
+  overflow: hidden;
+  border-radius: 10px;
+}
+
+.pictures .picture .imgContainer img {
+  width: 100%;
+  height: 100%;
+  transition: .3s;
+  object-fit: cover;
+}
+
+.pictures .picture .imgContainer img:hover {
+  transform: scale(1.5);
+}
+
+.pictures .picture a {
+  color: white;
+}
+
+.loadMore {
+  display: flex;
+  justify-content: center;
+  margin: 3rem 0;
+}
+
+.loadMore button {
+  outline: none;
+  border: none;
+  padding: 1rem 3rem;
+  font-size: 1.2rem;
+  background-color: #BBBBBB;
+  cursor: pointer;
+  font-weight: bold;
+  border-radius: 10px;
+}
+/*# sourceMappingURL=style.css.map */

@@ -1,0 +1,28 @@
+.search{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 3rem 0;
+    overflow:hidden;
+    max-height: 2.7rem;
+    input{
+        font-size: 1.5rem;
+        padding: 0.5rem;
+        outline: none;
+        border: none;
+        background-color: #EEEEEE;
+        height: 100%;
+        display: block;
+    }
+    button{
+        font-size: 1.5rem;
+        padding: 0.5rem;
+        background-color: #BBBBBB;
+        cursor: pointer;
+        outline: none;
+        border: none;
+        font-weight: bold;
+        
+
+    }
+}
